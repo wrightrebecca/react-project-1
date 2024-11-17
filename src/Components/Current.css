@@ -1,0 +1,43 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/203/original/bodyWallpaper.jpg?1721814743");
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+}
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  padding: 30px 0;
+}
+h1 {
+  margin: 0;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.weather-details {
+  font-size: 20px;
+  line-height: 30px;
+  color: grey;
+  font-weight: 300;
+}
+.temperature {
+  display: flex;
+}
+.weather-icon {
+  font-size: 90px;
+  margin-top: 10px;
+}
+.weather-temperature-numerals {
+  font-size: 100px;
+  font-weight: 500;
+}
+.weather-temperature-symbol {
+  font-size: 60px;
+  margin-top: 12px;
+}
+.weather-details strong {
+  color: #00a7c9;
+  font-weight: 600;
+}

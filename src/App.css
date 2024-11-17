@@ -1,38 +1,35 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/135/203/original/bodyWallpaper.jpg?1721814743");
+  background-size: cover;
+  font-family: "Nunito", sans-serif;
+}
 .App {
-  text-align: center;
+  background-color: #c6e7ee;
+  max-width: 750px;
+  margin: 40px auto;
+  padding: 20px;
+  box-shadow: 0 40px 60px rgba(65, 50, 100, 0.05);
+  border-radius: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  border-bottom: 2px solid #acdee7;
+  padding: 0 0 30px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-form-input {
+  background-color: #7ed4e7;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  width: 80%;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-form-button {
+  background-color: #00a7c9;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  width: 19%;
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
 }

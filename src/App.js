@@ -1,14 +1,23 @@
 import "./App.css";
-import axios from "axios";
-import Weather from "./weather";
+import Current from "./Components/Current";
+import Footer from "./Components/Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <p>Hello</p>
-      <Weather city="London" />
+      <header>
+        <form className="search-form">
+          <input
+            type="search"
+            placeholder="Enter a town, city or country"
+            required
+            className="search-form-input"
+          />
+          <input type="submit" value="Search" className="search-form-button" />
+        </form>
+      </header>
+      <Current />
+      <Footer />
     </div>
   );
 }
-
-export default App;
